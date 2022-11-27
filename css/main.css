@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}  
+
+body {
+  
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 17px;   
+}
+
+.container {
+    max-width: 900px;
+    padding:  20px;  
+    margin: 0 auto;
+}
+ 
+.header__inner {
+    align-items: center;
+}
+
+.menu {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.theme-button {
+    border-radius: 50%;
+}
+ 
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+a:hover {
+    border-radius: 15px;
+    transition: 3s;
+}
+    
+ul {
+    list-style: none;
+}
+
+.menu__list{
+    display: flex;
+    font-weight: 600;
+}
+
+.menu__link { 
+    text-transform: uppercase;
+    padding: 20px 30px;
+    transition: all .0.5s;
+    align-items: center;
+}
+
+.theme-button {
+    border: none; 
+}
+
+.main__inner {
+    display: flex;
+}
+
+.wrapper {
+    max-width: 400px;
+    font-size: 25px;
+    line-height: 30px;      
+}
+
+.main-list {
+    min-width: 600px;
+    border-radius: 15px;
+    position: relative;  
+}
+
+.page-title{
+    padding: 10px;
+    margin: 30px;
+}
+
+.list-items {
+    padding: 10px;
+    margin: 20px;   
+}
+
+.item {
+    padding: 10px;
+    overflow:hidden; 
+}
+
+.dots {
+    position: absolute;
+    right: 30px;
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+#form {
+    padding: 10px;
+    margin: 30px;   
+}
+
+#myInput{
+    border: none;
+    padding: 10px 20px 10px; 
+    border-radius: 15px;
+    overflow:auto;
+}
+
+.list-button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+#close {
+    text-decoration: line-through; 
+   
+}
